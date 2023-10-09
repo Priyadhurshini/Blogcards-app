@@ -1,0 +1,30 @@
+.App{
+  text-align: center;
+}
+
+.Blogcard{
+  margin : 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  background-color: lightblue;
+  font-size: 15px;
+}
+
+.Blogcard > button{
+  font-size: 15px;
+}
+
+.LikeCount{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+@media(min-width : 992px){
+  .Blogcard{
+    width: 45%;
+    display: inline-block;
+  }
+}
+
